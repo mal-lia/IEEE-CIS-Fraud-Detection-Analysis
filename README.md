@@ -56,13 +56,13 @@ Dari 430+ fitur yang diproses, fitur hasil *engineering* berhasil mendominasi da
 ## 🚀 How to Run the Pipeline
 
 **1. Clone Repository:**
-```bash
-git clone [https://github.com/](https://github.com/)[username-kamu]/ieee-fraud-detection.git
-cd ieee-fraud-detection
+```bash```
+```git clone [https://github.com/](https://github.com/)[username-kamu]/ieee-fraud-detection.git```
+```cd ieee-fraud-detection```
 
 **2. Install Dependencies:**
-```Bash
-pip install -r requirements.txt
+```Bash```
+```pip install -r requirements.txt```
 
 **3. Download Data:**
 Unduh data dari Kaggle IEEE-CIS dan letakkan di folder data/.
@@ -73,6 +73,8 @@ Buka Jupyter Notebook atau Colab, dan jalankan skrip fraud_transaction_insight.p
 ---
 
 ## 🔮 Future Works / Next Steps
-[ ] Mengimplementasikan Hyperparameter Tuning otomatis menggunakan Optuna.
+[ ] Mengimplementasikan **Hyperparameter Tuning** otomatis menggunakan Optuna.
+
 [ ] Membuat sistem streaming feature tiruan (Kafka) untuk mensimulasikan perhitungan Velocity secara Real-Time.
-[ ] Model Calibration (Platt Scaling / Isotonic Regression) agar probabilitas model mencerminkan persentase risiko sesungguhnya.
+
+[ ] **Model Calibration** (Platt Scaling / Isotonic Regression) agar probabilitas model mencerminkan persentase risiko sesungguhnya.
