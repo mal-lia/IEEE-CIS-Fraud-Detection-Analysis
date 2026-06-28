@@ -3,6 +3,16 @@ __pycache__/
 *.py[codz]
 *$py.class
 
+# Data mentah (file CSV/ZIP dari Kaggle) - JANGAN DI-UPLOAD!
+*.csv
+*.zip
+*.parquet
+data/
+*.h5
+
+# File environment Colab lokal (kalau ada)
+/sample_data/
+
 # C extensions
 *.so
 
